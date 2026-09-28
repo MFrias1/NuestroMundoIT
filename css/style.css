@@ -57,29 +57,62 @@ header {
   display: flex;
   justify-content: center;
 }
-
-.contenedores-recursos{
+/* Article Padre Estructura de Contenedores de recursos e instituciones */
+.contenedores-recursos {
   border: 1px solid #efeaff;
-  margin: 0 30px;
-  padding-inline: 40px;
-  width:350px;
+  margin: 0 20px;
+  width: 450px;
   height: 200px;
-  /* background-color: #efeaff;*/
 }
+/* Div Hijo Contenedor que contiene la imagen y el texto */
 .contenedor-de-recursos-img-y-texto {
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
+  background-color: rgb(28, 108, 179);
   height: 100%;
-}
-.contenedor-de-recursos-img-y-texto img{
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  margin: 0;
+  padding: 0px;
 }
 
-/*.logo {
-}*/
+/* hijo div que contiene a la imagen */
+.img-recursos {
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+/* La imagen dentro de su caja */
+.img-recursos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* hijo div que contiene al texto */
+.txt-recursos {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(201, 80, 33);
+  overflow: hidden;
+  padding: none;
+}
+.txt-recursos h2 {
+  font-size: 25px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.txt-recursos p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Footer */
 footer {
   /* background-color: #b2b4d8;*/
   padding: 10px;
