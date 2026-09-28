@@ -3,30 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mi página web</title>
+    <title>NMIT</title>
+    <!--css--->
     <link rel="stylesheet" href="/css/style.css" />
-    <link: rel="icon" href="#" type="image/x-icon" />
+    <!--favicon--->
+    <link: rel="icon" href="./images/" type="image/x-icon" />
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Acerca de</a></li>
-          <li><a href="#">Contacto</a></li>
+        <ul class="menu">
+          <li><a href="#contenido-principal">Inicio</a></li>
+          <li><a href="#acerca-de-nosotros">Acerca de</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
-      <h1>Bienvenido</h1>
     </header>
     <main>
-      <section>
+      <section id="acerca-de-nosotros" class="acerca-de-nosotros">
+        <div>
+          <h2>nuestromundoit</h2>
+        </div>
+        <div>
+          <p>
+            recursos gratuitos para desarrollar tus habilidades en el mundo de
+            la tecnologia
+          </p>
+        </div>
+      </section>
+      <section id="contenido-principal" class="contenido-principal">
         <article>
           <div>
-            <h2>Sección de bienvenida</h2>
-            <p>
-              Bienvenido a mi página web. Aquí encontrarás información sobre
-              nuestros servicios y productos.
-            </p>
+            <h2>Subsección</h2>
+            <p>Este es un párrafo dentro de la subsección.</p>
           </div>
         </article>
         <article>
@@ -34,15 +43,17 @@
             <h2>Subsección</h2>
             <p>Este es un párrafo dentro de la subsección.</p>
           </div>
+        </article>
+        <article>
           <div>
-            <h3>Sección principal</h3>
-            <p>Este es el contenido principal de la página.</p>
+            <h2>Subsección</h2>
+            <p>Este es un párrafo dentro de la subsección.</p>
           </div>
         </article>
       </section>
     </main>
     <footer>
-      <section>
+      <section id="contacto">
         <h2>Contacto</h2>
         <p>
           Correo electrónico:

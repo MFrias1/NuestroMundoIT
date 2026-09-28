@@ -1,0 +1,53 @@
+body {
+    background-color: #0f1131;
+    color: #efeaff;
+}
+
+a {
+    text-decoration: none;
+    color: #efeaff;
+}
+
+header {
+    /*background-color: #b2b4d8;*/
+    padding: 10px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.contenido-principal {
+    padding: 20px;
+    background-color: #b2b4d8;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-principal article {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #efeaff;
+    color: #0f1131;
+}
+
+.acerca-de-nosotros {
+    padding: 20px;
+    background-color: #efeaff;
+    color: #0f1131;
+}
+
+footer {
+    /* background-color: #b2b4d8;*/
+    padding: 10px;
+    text-align: center;
+}
